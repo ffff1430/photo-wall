@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8498C4C243A307E00859445 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8498C4B243A307E00859445 /* CollectionViewCell.swift */; };
+		F8498C93243CB8B900859445 /* photoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8498C92243CB8B900859445 /* photoViewController.swift */; };
 		F859230B2434CC9C00EC7A32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859230A2434CC9C00EC7A32 /* AppDelegate.swift */; };
 		F859230D2434CC9C00EC7A32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859230C2434CC9C00EC7A32 /* SceneDelegate.swift */; };
 		F859230F2434CC9C00EC7A32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859230E2434CC9C00EC7A32 /* ViewController.swift */; };
 		F85923122434CC9C00EC7A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85923102434CC9C00EC7A32 /* Main.storyboard */; };
 		F85923142434CCA000EC7A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85923132434CCA000EC7A32 /* Assets.xcassets */; };
 		F85923172434CCA000EC7A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85923152434CCA000EC7A32 /* LaunchScreen.storyboard */; };
+		F859231F2434CD4400EC7A32 /* photoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859231E2434CD4400EC7A32 /* photoCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8498C4B243A307E00859445 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F8498C92243CB8B900859445 /* photoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoViewController.swift; sourceTree = "<group>"; };
 		F85923072434CC9C00EC7A32 /* photo wall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo wall.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F859230A2434CC9C00EC7A32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F859230C2434CC9C00EC7A32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		F85923132434CCA000EC7A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F85923162434CCA000EC7A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F85923182434CCA000EC7A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F859231E2434CD4400EC7A32 /* photoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				F85923132434CCA000EC7A32 /* Assets.xcassets */,
 				F85923152434CCA000EC7A32 /* LaunchScreen.storyboard */,
 				F85923182434CCA000EC7A32 /* Info.plist */,
+				F859231E2434CD4400EC7A32 /* photoCollectionViewController.swift */,
+				F8498C4B243A307E00859445 /* CollectionViewCell.swift */,
+				F8498C92243CB8B900859445 /* photoViewController.swift */,
 			);
 			path = "photo wall";
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8498C4C243A307E00859445 /* CollectionViewCell.swift in Sources */,
+				F8498C93243CB8B900859445 /* photoViewController.swift in Sources */,
 				F859230F2434CC9C00EC7A32 /* ViewController.swift in Sources */,
 				F859230B2434CC9C00EC7A32 /* AppDelegate.swift in Sources */,
 				F859230D2434CC9C00EC7A32 /* SceneDelegate.swift in Sources */,
+				F859231F2434CD4400EC7A32 /* photoCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
